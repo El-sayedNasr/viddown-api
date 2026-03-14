@@ -1,0 +1,14 @@
+{
+  "name": "viddown-api",
+  "version": "5.0.0",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "build": "npm install && python3 -m pip install -U yt-dlp || pip install -U yt-dlp || pip3 install -U yt-dlp"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5"
+  },
+  "engines": { "node": ">=18" }
+}
